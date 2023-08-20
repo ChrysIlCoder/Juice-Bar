@@ -16,7 +16,7 @@ export default function TrovaNome(){
                     <p className='drink-desc'>
 
                     </p>
-                    <span className='drink-prep-time'></span>
+                    <span className='drink-price'></span>
                 </div>
             </div>
         </div>
