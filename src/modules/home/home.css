@@ -1,0 +1,161 @@
+.header {
+    font-size: 2em;
+}
+
+/* #region ImageBackgroundText */
+
+.image-home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://shorturl.at/cIQ79') no-repeat center;
+    background-size: cover;
+    height: 40rem;
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.upper-image-text {
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+.downer-image-text {
+    font-size: 1.5em;
+}
+
+/* #endregion */
+
+/* #region HomeObjective */
+
+.objective-home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    text-align: center;
+    padding-top: 1rem;
+    color: black;
+    background-color: #ffefdda6;
+}
+
+.objective-logo {
+    width: 5rem;
+}
+
+.objective-title {
+    margin-top: -0.5rem;
+}
+
+.objective-exp-home-p {
+    margin: 0 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* #endregion */
+
+/* #region HomeIngredients */
+
+.ingredients-home-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 1rem;
+    gap: 0.5rem;
+    background: url('https://shorturl.at/fgvL1') no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.ingredients-responsabile {
+    opacity: 0.5;
+    font-size: 0.7em;
+}
+
+@media only screen and (max-width: 400px) {
+    .ingredients-home-container {
+        text-align: center;
+    }
+}
+
+/* #endregion */
+
+/* #region HomeMenu */
+
+.menu-home-container {
+    background-color: #ffefdda6;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+.menu-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    grid-gap: 1rem;
+}
+
+.menu-nav-div {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.link-home-menu {
+    color: #ff8800;
+}
+
+.drink-item {
+    width: 350px;
+    height: 350px;
+    cursor: pointer;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.text-menu-container {
+    color: white;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 150ms linear;
+}
+.text-menu-container:hover {
+    opacity: 1;
+}
+
+.item-home-menu-title {
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 800px) {
+  .menu-grid-container {
+      grid-template-columns: 350px;
+  }
+
+  .text-menu-container {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 370px){
+    .menu-grid-container {
+        grid-template-columns: 300px;
+    }
+
+    .drink-item {
+      width: 300px;
+    }
+}
+
+/* #endregion */

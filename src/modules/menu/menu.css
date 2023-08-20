@@ -1,0 +1,14 @@
+.header {
+    font-size: 2em;
+}
+
+.menu-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu-desc {
+    width: 35rem;
+    text-align: center;
+}
