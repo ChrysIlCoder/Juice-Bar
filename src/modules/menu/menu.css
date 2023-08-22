@@ -4,7 +4,7 @@
     padding: 10rem 0;
 }
 
-.menu-text-header {
+.menu-title {
     font-size: 3em;
     display: flex;
     justify-content: center;
@@ -12,7 +12,7 @@
     color: white;
 }
 
-.drink-menu-item {
+.drink {
     display: flex;
     gap: 1.5rem;
     margin: 1rem;
@@ -20,19 +20,16 @@
 
 .drink-image {
     height: 450px;
+    width: min-content;
     border-radius: 12px;
 }
 
-.drink-text {
+.drink-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 0.5rem;
     height: 450px;
-}
-
-.drink-info {
-    flex-direction: column;
 }
 
 .drink-header {
@@ -41,17 +38,18 @@
 }
 
 .drink-desc {
-    width: 40rem;
-}
-
-.drink-ingredients {
-    list-style-type: circle;
-    list-style-position: inside;
-    font-style: italic;
-    margin-left: 0.5rem;
+    max-width: 40rem;
 }
 
 .drink-price {
     font-style: italic;
     text-decoration: underline 0.2px;
+}
+
+@media only screen and (max-width: 800px){
+    .drink {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }

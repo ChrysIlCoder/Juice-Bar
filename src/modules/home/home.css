@@ -113,6 +113,7 @@
 .drink-item {
     width: 350px;
     height: 350px;
+    border-radius: 12px;
     cursor: pointer;
     background-size: cover;
     background-position: bottom;
@@ -122,6 +123,7 @@
     color: white;
     height: 100%;
     width: 100%;
+    border-radius: inherit;
     background-color: rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: center;
