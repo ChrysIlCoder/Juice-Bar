@@ -36,12 +36,19 @@
 .objective-home-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     gap: 0.5rem;
     text-align: center;
     padding-top: 1rem;
     color: black;
     background-color: #ffefdda6;
+}
+
+.objective-point-breaker {
+    position: relative;
+    width: 4px;
+    border: double 4px #A5C617;
+    border-radius: 50%;
 }
 
 .objective-logo {

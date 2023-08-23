@@ -5,7 +5,7 @@ export default function Footer(){
     return (
         <footer>
             <div className='footer-container'>
-                <span className='footer-logo'>Juice.</span>
+                <span className='footer-logo'>Juice™.</span>
                 <span className='footer-copyright'>Copyright © 2023, Juice Bar</span>
                 <ul className='footer-links-list'>
                     <li className='footer-links underline-effect'><a href="/">Home</a></li>
