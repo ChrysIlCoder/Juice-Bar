@@ -1,0 +1,13 @@
+.finder-header {
+    background: url('https://shorturl.at/ikEHM') no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+}
+
+.finder-title {
+    font-size: 3em;
+    color: white;
+}

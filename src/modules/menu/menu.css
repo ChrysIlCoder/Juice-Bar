@@ -16,7 +16,7 @@
 .drink {
     display: flex;
     gap: 1rem;
-    margin: 1rem;
+    margin: 1rem 6rem;
 }
 
 .drink-image {
@@ -52,7 +52,7 @@
         text-align: center;
     }
 
-/*     .drink-info {
+    /* .drink-info {
         align-items: center !important;
         text-align: center !important;
     } */
