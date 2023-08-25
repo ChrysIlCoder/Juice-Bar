@@ -10,7 +10,7 @@ export default function Footer(){
                 <ul className='footer-links-list'>
                     <li className='footer-links underline-effect'><a href="/">Home</a></li>
                     <li className='footer-links underline-effect'><a href="/menu">Menù</a></li>
-                    <li className='footer-links underline-effect'><a href="/finder">Trova Bar</a></li>
+                    <li className='footer-links underline-effect'><a href="/trova">Trova Bar</a></li>
                     <li className='footer-links underline-effect'><a href="/chisiamo">Chi Siamo</a></li>
                     <li className='footer-links underline-effect'><a href="/contact">Contattaci</a></li>
                 </ul>
