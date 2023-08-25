@@ -12,7 +12,7 @@ export default function App(){
             <Routes>
                 <Route path='/' element={<Home />}/>
                 <Route path='/menu' element={<Menu />}/>
-                <Route path='/finder' element={<TrovaBar />}/>
+                <Route path='/trova' element={<TrovaBar />}/>
             </Routes>
             <Footer />
         </>

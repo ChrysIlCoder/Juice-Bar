@@ -12,7 +12,7 @@ export default function NavBar(){
                 <a href="/"><img src={logo} alt="Logo" className='nav-logo'/></a>
                 <ul className={`nav-menu ${active ? 'nav-active' : ''}`}>
                     <li className='nav-links underline-effect'><a href="/menu">Menu</a></li>
-                    <li className='nav-links underline-effect'><a href="/finder">Trova Bar</a></li>
+                    <li className='nav-links underline-effect'><a href="/trova">Trova Bar</a></li>
                     <li className='nav-links underline-effect'><a href="/chisiamo">Chi Siamo</a></li>
                     <li className='nav-links underline-effect'><a href="/contact">Contattaci</a></li>
                 </ul>
