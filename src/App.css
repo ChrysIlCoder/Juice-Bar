@@ -127,7 +127,7 @@ body {
 .underline-effect::after {
     content: "";
     position: absolute;
-    background-color: #a3bb36;
+    background-color: #F09411;
     height: 2px;
     width: 0%;
     left: 0;

@@ -1,0 +1,14 @@
+.chisiamo-header {
+    background: url('https://shorturl.at/cyHJP') no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10rem 0;
+}
+
+.chisiamo-title {
+    font-size: 3em;
+    color: white;
+}
