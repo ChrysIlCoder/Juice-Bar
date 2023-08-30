@@ -10,12 +10,14 @@ export default function App(){
     return (
         <>
             <NavBar />
-            <Routes>
-                <Route path='/' element={<Home />}/>
-                <Route path='/menu' element={<Menu />}/>
-                <Route path='/trova' element={<TrovaBar />}/>
-                <Route path='/chisiamo' element={<ChiSiamo />}/>
-            </Routes>
+            <section>
+                <Routes>
+                    <Route path='/' element={<Home />}/>
+                    <Route path='/menu' element={<Menu />}/>
+                    <Route path='/trova' element={<TrovaBar />}/>
+                    <Route path='/chisiamo' element={<ChiSiamo />}/>
+                </Routes>
+            </section>
             <Footer />
         </>
     )

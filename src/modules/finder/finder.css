@@ -59,12 +59,10 @@
 .spiegazione-container {
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
 }
 
 .spiegazione-header {
     font-size: 1.5em;
-    text-decoration: underline 0.2px;
 }
 
 .spiegazione-p {

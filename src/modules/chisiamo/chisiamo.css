@@ -22,6 +22,7 @@
 }
 
 /* #region Spiegazione */
+
 .chisiamo-spiegazione-container {
     display: flex;
     justify-content: center;
@@ -32,7 +33,6 @@
 .chisiamo-spiegazione {
     display: flex;
     flex-direction: column;
-    text-align: center;
 }
 
 .chisiamo-spiegazione-header {
@@ -45,8 +45,7 @@
 }
 
 .chisiamo-spiegazione-line-connecter {
-    border: dashed 1px black;
-    border-radius: 50px;
+    border: dashed 2px black;
     width: 5rem;
 }
 
@@ -62,7 +61,7 @@
         flex-direction: column;
     }
 
-    .chisiamo-spiegazione-p {
+    .chisiamo-spiegazione, .chisiamo-spiegazione-p {
         text-align: center;
     }
 
@@ -80,26 +79,6 @@
 
 /* #region Timeline */
 
-.chisiamo-timeline-container {
-    margin-bottom: 5rem;
-}
 
-.chisiamo-timeline-container hr {
-    border: solid 1px black;
-}
-
-.chisiamo-timeline-points {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.time-point {
-    width: 2px;
-    height: 5rem;
-}
-
-.time-point:nth-child(even){
-    transform: translateY(5rem);
-}
 
 /* #endregion */
