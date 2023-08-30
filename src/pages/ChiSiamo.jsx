@@ -1,11 +1,11 @@
+import ChiSiamoContent from "../modules/chisiamo/chisiamo";
 import ChiSiamoHeader from "../modules/chisiamo/chisiamoHeader";
-import ChiSiamoSpiegazione from "../modules/chisiamo/chisiamoSpiegazione";
 
 export default function ChiSiamo(){
     return (
         <>
             <ChiSiamoHeader />
-            <ChiSiamoSpiegazione />
+            <ChiSiamoContent />
         </>
     )
 }

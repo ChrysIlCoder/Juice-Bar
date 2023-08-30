@@ -130,13 +130,16 @@ body {
     background-color: #F09411;
     height: 2px;
     width: 0%;
-    left: 0;
-    bottom: -2px;
-    transition: width 150ms ease-in-out;
+    left: 50%; /* Inizia dal centro */
+    transform: translateX(-50%); /* Sposta a sinistra per centrare l'effetto */
+    bottom: 0;
+    transition: width 150ms ease-in-out, left 150ms ease-in-out; /* Aggiunto anche la transizione per il movimento dal centro */
 }
+
 .underline-effect:hover::after {
     width: 100%;
 }
+
 
 @media only screen and (max-width: 800px){
     .underline-effect::after {

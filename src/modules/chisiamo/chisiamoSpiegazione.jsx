@@ -3,14 +3,19 @@ import './chisiamo.css'
 export default function ChiSiamoSpiegazione(){
     return (
          <div className='chisiamo-spiegazione-container'>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pretium metus ut finibus tempor. 
-                Praesent in erat imperdiet, volutpat arcu at, aliquam sapien. Pellentesque gravida lacus at sapien eleifend 
-                dapibus. Fusce vehicula erat id egestas ornare. Donec tincidunt, lorem nec finibus volutpat, enim leo tempus 
-                velit, vitae mollis est arcu nec mi. Fusce quis quam et nibh accumsan iaculis. Nulla lobortis finibus quam a 
-                eleifend. Etiam dapibus erat metus, et aliquet ligula blandit vel. Nunc vulputate ex sed tortor posuere ornare.
-                Suspendisse potenti. Phasellus lacinia consequat tortor, ut ultrices diam tristique in.
-            </p>
+            <div className='chisiamo-spiegazione'>
+                <span className='chisiamo-spiegazione-header'>Ci presentiamo</span>
+                <p className='chisiamo-spiegazione-p'>
+                    Siamo una crew con puro stile! Ci conosciamo meglio delle nostre playlist, 
+                    servendo ride e drink con swag impeccabile. Sotto le luci soffuse, creiamo magia da dietro il bancone, 
+                    trasformando ordini in momenti da ricordare. Come una squadra affiatata, rendiamo ogni turno un'avventura, 
+                    e ogni cliente parte della nostra crew. Ogni sorriso condiviso è una nota in un ritmo perfetto, 
+                    e ogni sorso è una celebrazione. Quindi, se cerchi figate nel nostro bar, 
+                    sappi che la nostra crew è la vera star!
+                </p>
+            </div>
+            <hr className='chisiamo-spiegazione-line-connecter'/>
+            <img src="https://shorturl.at/FLOT5" alt="Crew" className='chisiamo-spiegazione-img'/>
          </div>
     )
 }

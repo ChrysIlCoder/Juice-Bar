@@ -12,3 +12,94 @@
     font-size: 3em;
     color: white;
 }
+
+.chisiamo-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 5rem;
+    padding: 5rem 1rem;
+}
+
+/* #region Spiegazione */
+.chisiamo-spiegazione-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.chisiamo-spiegazione {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.chisiamo-spiegazione-header {
+    font-size: 2em;
+}
+
+.chisiamo-spiegazione-p {
+    max-width: 35rem;
+    text-align: justify;
+}
+
+.chisiamo-spiegazione-line-connecter {
+    border: dashed 1px black;
+    border-radius: 50px;
+    width: 5rem;
+}
+
+.chisiamo-spiegazione-img {
+    border-radius: 12px;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 800px){
+    .chisiamo-spiegazione-container {
+        flex-direction: column;
+    }
+
+    .chisiamo-spiegazione-p {
+        text-align: center;
+    }
+
+    .chisiamo-spiegazione-line-connecter {
+        height: 5rem;
+        width: 1px;
+    }
+
+    .chisiamo-spiegazione-img {
+        width: 100%;
+    }
+}
+
+/* #endregion */
+
+/* #region Timeline */
+
+.chisiamo-timeline-container {
+    margin-bottom: 5rem;
+}
+
+.chisiamo-timeline-container hr {
+    border: solid 1px black;
+}
+
+.chisiamo-timeline-points {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.time-point {
+    width: 2px;
+    height: 5rem;
+}
+
+.time-point:nth-child(even){
+    transform: translateY(5rem);
+}
+
+/* #endregion */
