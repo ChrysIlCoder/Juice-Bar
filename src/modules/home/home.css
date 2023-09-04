@@ -47,7 +47,7 @@
 .objective-point-breaker {
     position: relative;
     width: 4px;
-    border: double 4px #A5C617;
+    border: double 4px orange;
     border-radius: 50%;
 }
 
