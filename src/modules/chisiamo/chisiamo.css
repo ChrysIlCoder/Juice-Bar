@@ -21,6 +21,12 @@
     padding: 5rem 5rem;
 }
 
+@media only screen and (max-width: 800px){
+    .chisiamo-container {
+        padding: 2rem 2rem;
+    }
+}
+
 /* #region Spiegazione */
 
 .chisiamo-spiegazione-container {
@@ -70,7 +76,7 @@
     }
 
     .chisiamo-spiegazione-img {
-        width: 100%;
+        max-width: 100%;
     }
 }
 
@@ -78,6 +84,125 @@
 
 /* #region Timeline */
 
+.timeline-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 5rem;
+}
 
+.juicebar-story-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.juicebar-header {
+    font-size: 1.5em;
+    text-wrap: balance;
+}
+
+.juicebar-desc {
+    text-align: justify;
+    max-width: 35rem;
+}
+
+.list-container {
+    list-style-type: none;
+    position: relative;
+}
+
+.list-container::before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: tomato;
+}
+
+.list-container li {
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.list-container li p{
+    font-size: 1.1em;
+    text-wrap: balance;
+    margin-left: 30px;
+}
+
+.list-container li span {
+    color: tomato;
+    font-size: 1em;
+    position: absolute;
+    left: -15px;
+    background-color: white;
+}
+
+@media only screen and (max-width: 800px){
+    .timeline-container {
+        flex-direction: column;
+    }
+
+    .juicebar-story-container, .juicebar-desc {
+        text-align: center;
+    }
+}
+
+/* #endregion */
+
+/* #region Grazie */
+
+.thanks-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.thanks-title {
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+.thanks-desc {
+    width: 80%;
+}
+
+.thanks-gallery {
+    overflow-x: hidden;
+}
+
+.gallery {
+    display: flex;
+    gap: 1rem;
+    animation: gallery-slider 40s linear infinite;
+}
+
+.gallery-item {
+    display: flex;
+    gap: 1rem;
+}
+
+.gallery-image {
+    width: 250px;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+@keyframes gallery-slider {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 8.525));
+    }
+}
 
 /* #endregion */
