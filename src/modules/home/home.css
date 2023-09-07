@@ -41,7 +41,6 @@
     text-align: center;
     padding-top: 1rem;
     color: black;
-    background-color: #ffefdda6;
 }
 
 .objective-point-breaker {
@@ -94,7 +93,6 @@
 /* #region HomeMenu */
 
 .menu-home-container {
-    background-color: #ffefdda6;
     color: black;
     display: flex;
     align-items: center;
