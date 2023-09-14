@@ -20,7 +20,7 @@ export default function ChiSiamoTimeline(){
                 <Milestone date={'1991'} desc={'Fondazione bar Juice.'}/>
                 <Milestone date={'1995'} desc={'Creazione del drink con ingredienti segreti.'}/>
                 <Milestone date={'1995'} desc={'Primo cliente prova il drink, muore sul colpo.'}/>
-                <Milestone date={'2003'} desc={"La polizia fa chiudere l'attività per motivi"}/>
+                <Milestone date={'2003'} desc={`La polizia fa chiudere l'attività per "motivi"`}/>
                 <Milestone date={'2015'} desc={'Riapertura dopo rivisite ai nostri drink'}/>
                 <Milestone date={'2023'} desc={'In imminente banca rotta'}/>
             </ul>
