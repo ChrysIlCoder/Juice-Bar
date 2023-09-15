@@ -95,3 +95,12 @@
 }
 
 /* #endregion */
+
+/* #region Alternativa */
+
+.alternative-email {
+    display: flex;
+    justify-content: center;
+}
+
+/* #endregion */
