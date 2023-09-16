@@ -1,5 +1,5 @@
 import '../app.css'
-import logo from '../assets/Logo.png'
+import logo from '../assets/NavLogo.svg'
 import { useState } from 'react'
 
 export default function NavBar(){

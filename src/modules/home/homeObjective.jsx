@@ -1,5 +1,5 @@
 import './home.css'
-import logo from '../../assets/Logo.png'
+import logo from '../../assets/NavLogo.svg'
 
 export default function HomeObjective(){
     return (

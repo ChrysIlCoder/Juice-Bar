@@ -4,14 +4,14 @@ export default function ContactAlternativaSocial(){
     return (
         <div className='contact-alternative-container'>
             <div className='alternative-title'>
-
+                Oppure
             </div>
             <div className='alternatives-container'>
                 <div className='alternative-email'>
-                    Oppure
+                    Email
                 </div>
                 <div className='alternative-phone'>
-
+                    Telefono
                 </div>
             </div>
         </div>
