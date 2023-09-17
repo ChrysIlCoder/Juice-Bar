@@ -1,10 +1,17 @@
 import '../app.css'
 import logo from '../assets/FootLogo.svg'
+import { useState } from 'react'
 
 export default function Footer(){
+    const [rotate, setRotate] = useState(false)
+
+    function handleClick(){
+        setRotate(true)
+    }
+
     return (
         <footer className='footer-container'>
-            <img src={logo} alt="Logo" className='footer-logo'/>
+            <img src={logo} alt="Logo" className='footer-logo' onClick={handleClick} style={{ transform: `${rotate && 'rotate(180deg)'}`}}/>
             <div className='links-container'>
                 <span className='footer-title'>Juice</span>
                 <span className='footer-copyright'>© 2023 - Juicebar.it</span>
