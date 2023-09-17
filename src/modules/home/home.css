@@ -52,6 +52,15 @@
 
 .objective-logo {
     width: 5rem;
+    animation: obj-logo-rotate 10s linear infinite;
+}
+@keyframes obj-logo-rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .objective-title {
