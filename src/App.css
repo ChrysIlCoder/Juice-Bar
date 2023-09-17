@@ -19,6 +19,7 @@ body {
     padding: 1rem 0;
     background-color: white;
     gap: 3rem;
+    z-index: 1;
 }
 
 .nav-logo {
@@ -52,6 +53,10 @@ body {
 @media only screen and (max-width: 800px) {
     .burger{
         display: block;
+    }
+    
+    .contact-us {
+        display: none;
     }
 
     .navbar {

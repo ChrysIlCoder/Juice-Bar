@@ -23,7 +23,6 @@ export default function Footer(){
                     </ul>
                     <ul className='footer-link'>
                         <li><a className='underline-effect-footer' href="/chisiamo">Chi Siamo</a></li>
-                        <li><a className='underline-effect-footer' href="/contattaci">Contattaci</a></li>
                         <li><a className='underline-effect-footer' href="/lavoro">Lavora con noi</a></li>
                     </ul>
                     <ul className='footer-link'>

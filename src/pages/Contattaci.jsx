@@ -1,12 +1,9 @@
-import ContactContent from "../modules/contact/contact";
-import ContactHeader from "../modules/contact/contactHeader";
-
+import Contact from "../modules/contact/contact";
 
 export default function Contattaci(){
     return (
         <>
-            <ContactHeader />
-            <ContactContent />
+            <Contact />
         </>
     )
 }

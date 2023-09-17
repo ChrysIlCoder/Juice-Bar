@@ -1,11 +1,7 @@
-import ContactAlternativaSocial from "./contactAlternativa";
-import ContactSocials from "./contactSocials";
+import './contact.css'
 
-export default function ContactContent(){
+export default function Contact(){
     return (
-        <div className="contact-container">
-            <ContactSocials />
-            <ContactAlternativaSocial />
-        </div>
+        "Kenmaaaa"
     )
 }
