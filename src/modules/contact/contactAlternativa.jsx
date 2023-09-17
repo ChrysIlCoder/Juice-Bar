@@ -6,6 +6,7 @@ export default function ContactAlternativaSocial(){
             <div className='alternative-title'>
                 Oppure
             </div>
+            <hr />
             <div className='alternatives-container'>
                 <div className='alternative-email'>
                     Email
