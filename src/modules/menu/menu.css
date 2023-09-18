@@ -21,7 +21,7 @@
 
 .drink-image {
     height: 450px;
-    width: min-content;
+    max-width: min-content;
     border-radius: 12px;
 }
 
