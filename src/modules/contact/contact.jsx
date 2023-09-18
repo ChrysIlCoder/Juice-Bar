@@ -1,7 +1,10 @@
 import './contact.css'
+import ContactHeader from './contactHeader'
 
 export default function Contact(){
     return (
-        "Kenmaaaa"
+        <div className='contact-container'>
+            <ContactHeader />
+        </div>
     )
 }
