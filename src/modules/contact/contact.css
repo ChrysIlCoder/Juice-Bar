@@ -1,5 +1,5 @@
 .header-container {
-    background: url('https://shorturl.at/cpEQ2') no-repeat center;
+    background: url('https://shorturl.at/doP18') no-repeat center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@
 }
 
 .header-title {
-    font-size: 3em;
+    font-size: clamp(2.5em, 5vw, 3em);
     color: white;
 }
 
@@ -16,12 +16,15 @@ input {width:100%;display:block}
 
 /* #region ContactInfo */
 
+.contact-container {
+    --contact-color: green;
+}
+
 .contact-info-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 1rem;
-    background-color: rebeccapurple;
+    background-color: var(--contact-color);
     color: white;
     padding: 3rem;
 }
@@ -101,13 +104,13 @@ input {width:100%;display:block}
 }
 
 .form-inputs label {
-    color: rebeccapurple;
+    color: var(--contact-color);
 }
 
 .form-inputs input, textarea {
     outline: none;
     border-radius: 6px;
-    border: solid 1px rebeccapurple;
+    border: solid 1px var(--contact-color);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -119,8 +122,8 @@ input {width:100%;display:block}
     display: grid;
 }
 
-.contact-form input {
-    padding: 0.5rem 0rem;
+.contact-form input, textarea {
+    padding: 0.5rem 0.5rem;
     outline: solid 1px white;
 }
 
@@ -132,11 +135,12 @@ input {width:100%;display:block}
     padding: 1rem 3rem !important;
     border: none;
     border-radius: 6px;
-    background-color: rebeccapurple;
+    background-color: var(--contact-color);
     color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     max-width: fit-content;
+    max-width: -moz-fit-content;
     cursor: pointer;
 }
 

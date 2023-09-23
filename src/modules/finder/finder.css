@@ -9,7 +9,7 @@
 }
 
 .finder-title {
-    font-size: 3em;
+    font-size: clamp(2.5em, 5vw, 3em);
     color: white;
 }
 

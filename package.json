@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ChrysIlCoder.github.io/bar",
+  "homepage": "https://ChrysIlCoder.github.io/Juicebar-GithubPages",
   "name": "bar",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "vite",
     "start": "vite --host 192.168.1.103",
-    "start2": "vite --host 192.168.1.138",
+    "startPCP": "vite --host 192.168.1.138",
+    "startPCM": "vite --host 192.168.10.105",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "build": "vite build",
