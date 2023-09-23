@@ -115,7 +115,7 @@ input {width:100%;display:block}
 }
 
 .form-inputs input:focus, textarea:focus {
-    outline: solid 1px white;
+    outline: solid 1px black;
 }
 
 .contact-form div{
@@ -124,7 +124,6 @@ input {width:100%;display:block}
 
 .contact-form input, textarea {
     padding: 0.5rem 0.5rem;
-    outline: solid 1px white;
 }
 
 .form-messagge textarea{
@@ -134,14 +133,21 @@ input {width:100%;display:block}
 .form-submit {
     padding: 1rem 3rem !important;
     border: none;
+    outline: solid 1px var(--contact-color);
     border-radius: 6px;
-    background-color: var(--contact-color);
-    color: white;
+    background-color: transparent;
+    color: var(--contact-color);
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    max-width: fit-content;
     max-width: -moz-fit-content;
+    max-width: fit-content;
     cursor: pointer;
+    transition: all 100ms ease;
+}
+.form-submit:hover {
+    background-color: green;
+    outline: none;
+    color: white;
 }
 
 @media only screen and (max-width: 800px) {

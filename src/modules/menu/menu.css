@@ -21,7 +21,8 @@
 
 .drink-image {
     height: 450px;
-    max-width: min-content;
+    width: 300px;
+    object-fit: cover;
     border-radius: 12px;
 }
 
@@ -53,7 +54,6 @@
 
     .drink-image {
         width: 100%;
-        object-fit: cover;
     }
 
     .drink-desc {
