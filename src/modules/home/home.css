@@ -114,7 +114,7 @@
 .menu-grid-container {
     display: grid;
     grid-template-columns: repeat(2, 350px);
-    grid-gap: 1rem;
+    gap: 1rem;
 }
 
 .menu-nav-div {
@@ -130,9 +130,10 @@
     width: 350px;
     height: 350px;
     border-radius: 12px;
-    cursor: pointer;
     background-size: cover;
     background-position: bottom;
+    text-align: center;
+    cursor: pointer;
 }
 
 .text-menu-container {
@@ -157,23 +158,16 @@
 }
 
 @media only screen and (max-width: 800px) {
-  .menu-grid-container {
-      grid-template-columns: 350px;
-  }
-
   .text-menu-container {
     opacity: 1;
   }
-}
 
-@media only screen and (max-width: 370px){
-    .menu-grid-container {
-        grid-template-columns: 300px;
-    }
-
-    .drink-item {
-      width: 300px;
-    }
+  .menu-grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 80vw;
+  }
 }
 
 /* #endregion */

@@ -1,4 +1,4 @@
-.header-container {
+.contact-header {
     background: url('https://shorturl.at/doP18') no-repeat center;
     background-size: cover;
     display: flex;
@@ -7,7 +7,7 @@
     padding: 10rem 0;
 }
 
-.header-title {
+.contact-title {
     font-size: clamp(2.5em, 5vw, 3em);
     color: white;
 }

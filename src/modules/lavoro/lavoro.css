@@ -1,0 +1,25 @@
+.lavoro-header {
+    background: url('https://shorturl.at/gruC8') no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10rem 0;
+}
+
+.lavoro-title {
+    font-size: clamp(2.5em, 5vw, 3em);
+    color: white;
+}
+
+/* #region Introduzione */
+
+
+
+/* #endregion */
+
+/* #region Posizioni */
+
+
+
+/* #endregion Posizioni */
