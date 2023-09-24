@@ -15,6 +15,7 @@ export default function NavBar(){
                     <li className='nav-links underline-effect-navbar'><a href="/trova">Trova un Bar</a></li>
                     <li className='nav-links underline-effect-navbar'><a href="/chisiamo">Chi Siamo</a></li>
                     <li className='nav-links underline-effect-navbar'><a href="/contattaci">Contattaci</a></li>
+                    <li className='nav-links underline-effect-navbar'><a href="/lavoro">Lavora con Noi</a></li>
                 </ul>
                 <div className='burger' onClick={handleBurgerClick}>
                     <div className='burger-line1'></div>

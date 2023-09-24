@@ -12,7 +12,7 @@
     color: white;
 }
 
-input {width:100%;display:block}
+.contact-form input {width:100%;display:block}
 
 /* #region ContactInfo */
 
@@ -142,11 +142,10 @@ input {width:100%;display:block}
     max-width: -moz-fit-content;
     max-width: fit-content;
     cursor: pointer;
-    transition: all 100ms ease;
+    transition: 200ms ease;
 }
 .form-submit:hover {
     background-color: green;
-    outline: none;
     color: white;
 }
 

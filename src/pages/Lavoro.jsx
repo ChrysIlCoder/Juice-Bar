@@ -5,7 +5,6 @@ import LavoroHeader from "../modules/lavoro/lavoroHeader";
 export default function Lavoro(){
     return (
         <>
-            <LavoroHeader />
             <LavoroContet />
         </>
     )
