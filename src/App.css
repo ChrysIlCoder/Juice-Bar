@@ -151,7 +151,7 @@ body {
 .underline-effect-navbar::after {
     content: "";
     position: absolute;
-    background-color: green;
+    background-color: #60A920;
     height: 2px;
     width: 0%;
     left: 50%; /* Inizia dal centro */
