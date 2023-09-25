@@ -9,7 +9,7 @@ export default function HomeMenu() {
                 <span className='header'>Sbronzo con tanti <span className='link-home-menu underline-effect'><a href="/menu">Gusti.</a></span></span>
             </div>
             <div className='menu-grid-container'>
-                <div className='drink-item' style={{ backgroundImage: "url(https://shorturl.at/lyJW3)" }}>
+                <div className='drink-item' style={{ backgroundImage: "url(https://shorturl.at/lyJW3)", backgroundPosition: "0px -130px"}}>
                     <div className="text-menu-container">
                         <span className='item-home-menu-title'>Mojrito</span>
                         <span className='item-home-menu-subtitle'>Un classico gusto di morte</span>
