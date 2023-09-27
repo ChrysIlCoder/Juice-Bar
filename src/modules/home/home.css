@@ -103,71 +103,76 @@
 
 /* #region HomeMenu */
 
-.menu-home-container {
-    color: black;
+.home-menu-title {
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-bottom: 1rem;
-}
-
-.menu-grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 350px);
-    gap: 1rem;
-}
-
-.menu-nav-div {
+    justify-content: center;
     text-align: center;
     padding: 1rem 0;
 }
 
-.link-home-menu {
-    color: #ff8800;
+.home-menu-title span {
+    font-size: 2em;
 }
 
-.drink-item {
-    width: 350px;
-    height: 350px;
-    border-radius: 12px;
-    background-size: cover;
-    background-position: bottom;
-    text-align: center;
-    cursor: pointer;
-}
-
-.text-menu-container {
-    color: white;
-    height: 100%;
-    width: 100%;
-    border-radius: inherit;
-    background-color: rgba(0, 0, 0, 0.3);
+.home-drinks-showcase {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    flex-direction: column;
-    opacity: 0;
-    transition: opacity 150ms linear;
-}
-.text-menu-container:hover {
-    opacity: 1;
+    padding: 4rem 0px;
 }
 
-.item-home-menu-title {
-    font-size: 1.5em;
-}
-
-@media only screen and (max-width: 800px) {
-  .text-menu-container {
-    opacity: 1;
-  }
-
-  .menu-grid-container {
+.menu-drink-selector {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 80vw;
-  }
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.menu-drink-selector button {
+    padding: 10px 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: orange;
+    border: solid 2px orange;
+    cursor: pointer;
+    transition: 100ms ease;
+}
+.menu-drink-selector button:hover {
+    background-color: orange;
+    color: white;
+}
+
+.menu-drink-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.menu-drink-name {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.menu-drink-desc {
+    max-width: 15rem;
+}
+
+.menu-drink-view {
+    background-color: #60A920;
+    color: white;
+    padding: 10px 15px;
+    font-family: 'Poppins', sans-serif;
+    border: solid 1px #60A920;
+    cursor: pointer;
+    max-width: fit-content;
+    transition: 200ms ease;
+}
+.menu-drink-view:hover {
+    background-color: transparent;
+    color: #60A920;
 }
 
 /* #endregion */

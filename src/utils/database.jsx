@@ -76,3 +76,26 @@ export const Positions = {
         }
     }
 }
+
+export const Drinks = {
+    Mojrito: {
+        name: "Mojrito",
+        details: "Il Mojrito è un drink perfetto per tutte quelle persone a cui la vita fa veramente tanto schifo, come te <3.",
+        price: "12,50€"
+    },
+    Limortacci: {
+        name: "Limortacci",
+        details: "Il Mojrito è un drink perfetto per tutte quelle persone a cui la vita fa veramente tanto schifo, come te <3.",
+        price: "12,50€"
+    },
+    Marrino: {
+        name: "Marrino",
+        details: "Il Mojrito è un drink perfetto per tutte quelle persone a cui la vita fa veramente tanto schifo, come te <3.",
+        price: "12,50€"
+    },
+    Wiskonsis: {
+        name: "Wiskonsis",
+        details: "Il Mojrito è un drink perfetto per tutte quelle persone a cui la vita fa veramente tanto schifo, come te <3.",
+        price: "12,50€"
+    }
+}

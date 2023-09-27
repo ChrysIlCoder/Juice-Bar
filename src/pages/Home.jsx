@@ -7,10 +7,10 @@ import HomeMenu from '../modules/home/homeMenu'
 export default function Home(){
   return (
     <>
-     <ImageBackground />
-     <HomeObjective />
-     <HomeIngredients />
-     <HomeMenu />
+      <ImageBackground />
+      <HomeObjective />
+      <HomeIngredients />
+      <HomeMenu />
     </>
   )
 }

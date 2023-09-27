@@ -103,12 +103,7 @@
 /* #endregion Posizioni */
 
 @media only screen and (max-width: 800px){
-    .search-container input, select {
-        width: 100%;   
-    }
-
-    .job-position {
-        width: 100%;
-        min-height: 100%;
+    .jobs-positions-container {
+        grid-template-columns: auto;
     }
 }
