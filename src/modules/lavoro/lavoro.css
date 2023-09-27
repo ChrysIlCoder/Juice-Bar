@@ -60,8 +60,8 @@
 .jobs-positions-container {
     --width: 25rem;
     --apply-color: #60A920;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(var(--width), 1fr));
     gap: 1rem;
 }
 
@@ -72,7 +72,6 @@
     border: solid 1px rgba(128, 128, 128, 0.4);
     border-radius: 12px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
-    width: var(--width);
     min-height: 180px;
     padding: 1rem;
 }
