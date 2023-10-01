@@ -29,7 +29,7 @@ export default function DrinksMenu() {
                     description={
                         "Questa bevanda blu evoca l'essenza profonda del mare in ogni sorso. Il suo colore intenso ricorda le profondità marine, mentre il suo profumo salino cattura l'aroma fresco e rigenerante dell'oceano. Il primo sorso offre una fusione di sapori unici: una dolcezza leggera e rinfrescante si unisce a una sottile nota salata che ricorda la brezza marina. Il retrogusto è lievemente erbaceo, come una passeggiata lungo la costa. Questa bevanda è un omaggio al mare, trasportando chi la gusta in un viaggio sensoriale attraverso onde di gusto e ricordi di mare aperto."
                     }
-                    price={'13,00€'}
+                    price={'7,50€'}
                     reverse={false}
                 />
                  <DrinkItem
@@ -38,7 +38,7 @@ export default function DrinksMenu() {
                     description={
                         "Il Whisky in questione è un'opera d'arte inebriante. All'olfatto, accoglie con una sinfonia di aromi complessi, in cui note di caramello tostato si mescolano con una leggera essenza di torba affumicata. Al palato, rivela la sua profonda maturità attraverso strati di vaniglia dolce, seguiti da un tocco di agrumi canditi. Il suo finale è lungo e avvolgente, con un retrogusto leggermente piccante e una sottile traccia di legno di quercia che persiste piacevolmente. Un whisky che incanta i sensi e invita a un lento e appagante sorseggiare."
                     }
-                    price={'8,50$'}
+                    price={'8$'}
                     reverse={true}
                 />
             </div>
