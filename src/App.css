@@ -24,6 +24,10 @@ body {
 
 .nav-logo {
     width: 4rem;
+    transition: transform 150ms ease;
+}
+.nav-logo:hover {
+    transform: rotate(-20deg) scale(1.05);
 }
 
 .nav-menu {

@@ -1,11 +1,33 @@
+import * as THREE from 'three'
 import { Environment, OrbitControls, PerspectiveCamera, useGLTF } from "@react-three/drei";
-import { angleToRadians } from "../utils/angles";
+import { Drinks } from "../utils/database";
+import { useEffect, useState, useRef } from "react";
+import { useFrame } from "@react-three/fiber";
 
-export default function ThreeJS(){
-    const drinksModels = {
-        mojrito: useGLTF("../../Mojrito.gltf"),
-        mojritoYellow: useGLTF("../../Mojrito2.gltf"), 
-    }
+export default function ThreeJS({ model }){
+    const selectedDrink = Drinks[model].drinkModel
+    const gltf = useGLTF(selectedDrink)
+
+    const { scene, animations } = gltf
+
+    const mixerRef = useRef();
+    const [mixer] = useState(() => new THREE.AnimationMixer(scene));
+
+    useEffect(() => {
+        animations.forEach((clip) => {
+            mixer.clipAction(clip, scene).play();
+        });
+        mixerRef.current = mixer;
+        return () => {
+            mixer.stopAllAction();
+        };
+    }, [animations, mixer, scene]);
+
+    useFrame((state, delta) => {
+        if (mixerRef.current) {
+            mixerRef.current.update(delta);
+        }
+    });
 
     return (
         <>
@@ -14,9 +36,11 @@ export default function ThreeJS(){
             <Environment preset={"warehouse"} />
             <OrbitControls autoRotate autoRotateSpeed={1} enableZoom={false}/>
 
-            <mesh>
-                <primitive object={drinksModels.mojrito.scene} />
-            </mesh>
+            {selectedDrink && (
+                <mesh>
+                    <primitive object={scene} />
+                </mesh>
+            )}
         </>
     )
 }

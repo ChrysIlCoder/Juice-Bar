@@ -79,27 +79,27 @@ export const Positions = {
 
 export const Drinks = {
     Mojrito: {
-        image: "https://shorturl.at/lyJW3",
+        drinkModel: "../../Mojrito.gltf",
         name: "Mojrito",
         details: "Il Mojrito è un drink perfetto per tutte quelle persone a cui la vita fa veramente tanto schifo, come te <3.",
         price: "12,50€"
     },
     Limortacci: {
-        image: "https://shorturl.at/oAHV9",
+        drinkModel: "../../Limoncello.gltf",
         name: "Limortacci",
         details: "Oh non sta a fà danni peché se no finisce male ok??? Hai capito??",
         price: "11,80€"
     },
     Marrino: {
-        image: "https://shorturl.at/anX26",
+        drinkModel: "../../Marrino.gltf",
         name: "Marrino",
         details: "Per le persone a cui manca il mare ma anche i soldi",
         price: "7,50€"
     },
     Wiskonsis: {
-        image: "https://shorturl.at/bGLR6",
+        drinkModel: "../../Wiskonsis.gltf",
         name: "Wiskonsis",
-        details: "Oya mate! Wanna cathc'a drink whi me? Come o' it's only for 8 dolla's! America🦅 🦅 !!",
-        price: "8$"
+        details: "Oya mate! Wanna cathc'a drink whi me? Come o' it's only for 500 dolla's! America🦅 🦅 !!",
+        price: "500$"
     }
 }

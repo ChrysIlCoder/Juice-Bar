@@ -12,19 +12,12 @@ export default function ContactForm(){
         Email.send({
             SecureToken: "794adbc2-32fa-4261-b0eb-1ec7b76cea5c",
             To: 'chri.boffa@gmail.com',
-            From: email,
+            From: 'Creepert11.creeper@gmail.com',
             Subject: name + " " + surname,
             Body: "Email: " + email + "<br>" +
                   "Messaggio: " + content
         }).then(
-            message => {
-                if (message.includes("Mailbox name not allowed")){
-                    alert(`L'Email "${email}" non esiste, perfavore usare un'email valida`)
-                }
-                else {
-                    alert("Inviata con successo")
-                }
-            }
+            message => alert("Email inviata con successo")
         );
     }
 

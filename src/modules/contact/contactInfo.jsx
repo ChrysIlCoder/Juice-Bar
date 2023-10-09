@@ -11,7 +11,7 @@ export default function ContactInfo(){
             <span className='contact-info-header'>Ecco alcuni nostri contattati</span>
             <div className='info-socials-line'>
                 <InfoItem icon={phoneIcon} title={'Telefono'} info={'+1 605-475-6968'}/>
-                <InfoItem icon={emailIcon} title={'Email'} info={'christian.anzolin.gay@gmail.com'}/>
+                <InfoItem icon={emailIcon} title={'Email'} info={'not.a.rick.roll@gmail.com'}/>
                 <InfoItem icon={instaIcon} title={'Instagram'} info={'@Juicebar.Illegal'}/>
                 <InfoItem icon={facebookIcon} title={'Facebook'} info={'Juicebar_Ubriachi'}/>
             </div>

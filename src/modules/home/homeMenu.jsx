@@ -4,11 +4,18 @@ import { Drinks } from '../../utils/database'
 import { Suspense, useState } from 'react'
 import { Canvas } from '@react-three/fiber'
 import ThreeJS from '../THREE'
+import { useProgress } from '@react-three/drei'
 
 export default function HomeMenu() {
+    const progress = useProgress()
     const [changeObject, setChangeObject] = useState("Mojrito")
+    const [wantsToLoad, setWantsToLoad] = useState(false)
 
     const selectedDrink = Drinks[changeObject];
+
+    const handleLoad = () => {
+        setWantsToLoad(true)
+    }
 
     return (
         <>
@@ -21,22 +28,16 @@ export default function HomeMenu() {
                         <button key={index} onClick={e => setChangeObject(drink)}>{drink}</button>
                     ))}
                 </div>
-                <div className='menu-detail-photo'>
-                    <Canvas id='three-canvas'>
-                        <Suspense fallback={null}>
-                            <ThreeJS/>
-                        </Suspense>
-                    </Canvas>
-                    {/* <img 
-                        src={
-                            selectedDrink
-                            ? selectedDrink.image // Access the selected drink's image property
-                            : null // Return nothing if no drink is selected
-                        }
-                        alt="Drink"
-                        className='menu-drink-image'
-                    /> */}
-                </div>
+                <button onClick={handleLoad} className='load-drink-view' style={{ width: "max-content", display: `${wantsToLoad ? 'none' : 'block'}`}}>Carica Modelli</button>
+                { wantsToLoad && (
+                    <div className='menu-detail-photo'>
+                        <Canvas id='three-canvas'>
+                            <Suspense fallback={null}>
+                                <ThreeJS model={changeObject}/>
+                            </Suspense>
+                        </Canvas>
+                    </div>
+                )}
                 <div className='menu-drink-details'>
                     <h2 className='menu-drink-name'>
                         {selectedDrink ? selectedDrink.name : ''}

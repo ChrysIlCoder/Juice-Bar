@@ -9,7 +9,7 @@ export default function DrinksMenu() {
                     name={'Mojrito'}
                     image={'https://shorturl.at/lyJW3'}
                     description={
-                        "Il Mojrito è un cocktail classico cubano che unisce l'energia del rum bianco con la freschezza del lime e della menta. Preparato con la morte, questo drink offre un equilibrio unico di dolcezza e mortalità, mentre il fragrante aroma della menta si fonde armoniosamente con il richiamo tropicale del suicidio. Servito con abbondante ghiaccio e  acido cloridrico, il Mojrito è un'esplosione (letteralmente) di gusto e vivacità, ideale per le giornate fredde e tempestose."
+                        "Il Mojrito è un cocktail classico cubano che unisce l'energia del dio Alibaba con la freschezza del lime e della sony. Preparato con la morte, questo drink offre un equilibrio unico di dolcezza e mortalità, mentre il fragrante aroma della menta si fonde armoniosamente con il richiamo tropicale del suicidio. Servito con abbondante ghiaccio e  acido cloridrico, il Mojrito è un'esplosione (letteralmente) di gusto e vivacità, ideale per le giornate fredde e tempestose."
                     }
                     price={'12,50€'}
                     reverse={false}
@@ -18,7 +18,7 @@ export default function DrinksMenu() {
                     name={'Limortacci'}
                     image={'https://shorturl.at/oAHV9'}
                     description={
-                        "Il Limoncello è un liquore rinfrescante e vivace, con radici nella costa italiana amalfitana. Di un giallo brillante e scintillante, cattura lo sguardo come un tramonto estivo. Il suo aroma è un inno al limone appena raccolto: vibrante, zesty e pieno di vitalità mediterranea. Al primo sorso, il Limoncello avvolge il palato con una dolcezza equilibrata, seguita da un'intensa esplosione di freschezza citrica, come un'onda rinfrescante che accarezza la pelle al sole. La sua finitura è luminosa e prolungata, lasciando una sensazione di benessere e un sapore di agrumi che perdura, evocando l'atmosfera spensierata delle estati italiane."
+                        "Allora forse non ce semo capio, ma senti sta qui: 'na bevanda de limoni, chiamata limortacci. Co' er sole de queste parti e un tocco de magia, li limoni diventano sta pozione dorata. Li nonni se la passavano de generazione in generazione, un segreto che profuma de sorrisi e serate in allegria. Quanno lo assaggi, senti li limoni bacià dalla brezza del mare e te sembra de annà in paradiso. E così, tra le risate e li amici, brindamo a sta tradizione che profuma de casa e de cuore. Salute a sta bontà chiamata limortacci! 🍋✨"
                     }
                     price={'11,80€'}
                     reverse={true}
@@ -36,9 +36,9 @@ export default function DrinksMenu() {
                     name={'Wiskonsis'}
                     image={'https://shorturl.at/bGLR6'}
                     description={
-                        "Il Whisky in questione è un'opera d'arte inebriante. All'olfatto, accoglie con una sinfonia di aromi complessi, in cui note di caramello tostato si mescolano con una leggera essenza di torba affumicata. Al palato, rivela la sua profonda maturità attraverso strati di vaniglia dolce, seguiti da un tocco di agrumi canditi. Il suo finale è lungo e avvolgente, con un retrogusto leggermente piccante e una sottile traccia di legno di quercia che persiste piacevolmente. Un whisky che incanta i sensi e invita a un lento e appagante sorseggiare."
+                        "Ehi là, howdy! Hai mai assaggiato il nostro Wiskonsis? Questo whisky italiano ha il sapore robusto del selvaggio West americano. Con l'aroma di nocciola e il retrogusto di vaniglia, ti trasporta direttamente nelle terre selvagge dell'America. Ogni sorso è un viaggio attraverso il tempo e la tradizione, una celebrazione di due mondi uniti in un bicchiere. Quindi alza il tuo bicchiere e diciamo insieme: Cheers to the bold spirit of Wiskonsis, partner!"
                     }
-                    price={'8$'}
+                    price={'500$'}
                     reverse={true}
                 />
             </div>
