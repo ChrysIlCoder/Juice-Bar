@@ -7,22 +7,21 @@ export default function ChiSiamoTimeline(){
             <div className='juicebar-story-container'>
                 <span className='juicebar-header'>Come nacque il <u>Juice Bar</u>?</span>
                 <p className='juicebar-desc'>
-                    Il Juice Bar nacque durante una parlata tra amici, o meglio, quello che pensavo fossero i miei
-                    amici, erano invece della così detta "finanza" e mi raccontavano che non stavo pagando le tasse. Io
-                    li dissi che ero povero e non me le potevo permettere, ma loro continuavano! Che simpatici!.
-                    Però poi uno di loro disse "Si vabbè allora ne parliamo ad un bar no? C'è dai". In quel momento, mi si accese
-                    una lampadina. E fu così, il marzo del 1991, con i soldi rubati nelle fontane in centro, inziarono
-                    i primi lavori. Da là (oltre a qualche sparatoria per ""problemini di poco conto"") fu l'inizio
-                    di una grande storia.
+                    "Il Juice Bar nacque durante una parlata tra amici. Eravamo in questo bar, all'epoca avevo solo 25 anni,
+                    e mi ricordo che mentre bevavamo la nostra solita birra, qualcosa mancava, mancava gusto! Questo non era
+                    un problema sono di quel bar, ma di tutti! Allora, insieme al mio amico <b>Frank</b> decidemmo di aprire un bar tutto nostro.
+                    Dopo tanto tempo di <i>planning</i> finalmente iniziarono i lavori, a <b>Vicenza</b>. Dopo un annetto finirono, era un bar piuttosto piccolo,
+                    ma per noi era perfetto. Da lì, bhe, è tutta storia"<br />
+                    - <small><i>Fondatore, "<b>Giorgino Pistacchio</b>", durante un'intervista nel 2023</i></small>
                 </p>
             </div>
             <ul className='list-container'>
-                <Milestone date={'1991'} desc={'Fondazione bar Juice.'}/>
-                <Milestone date={'1995'} desc={'Creazione del drink con ingredienti segreti.'}/>
+                <Milestone date={'1994'} desc={'Fondazione del bar Juice - "Frutta Fresca".'}/>
+                <Milestone date={'1995'} desc={'Il primo drink viene creato, il "Mojrito".'}/>
                 <Milestone date={'1995'} desc={'Primo cliente prova il drink, muore sul colpo.'}/>
-                <Milestone date={'2003'} desc={`La polizia fa chiudere l'attività per "motivi"`}/>
-                <Milestone date={'2015'} desc={'Riapertura dopo rivisite ai nostri drink'}/>
-                <Milestone date={'2023'} desc={'In imminente banca rotta'}/>
+                <Milestone date={'1997'} desc={'Chiusura per problemi'}/>
+                <Milestone date={'2000'} desc={'Riapertura dopo alcune rivisite ad alcuni dei nostri drink'}/>
+                <Milestone date={'2023'} desc={'Festeggiamento del 29° anno di Juice bar'}/>
             </ul>
         </div>
     )

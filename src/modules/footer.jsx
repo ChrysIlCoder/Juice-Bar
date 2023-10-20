@@ -26,11 +26,6 @@ export default function Footer(){
                         <li><a className='underline-effect-footer' href="/lavoro">Lavora con noi</a></li>
                         <li><a className='underline-effect-footer' href="/contattaci">Contattaci</a></li>
                     </ul>
-                    <ul className='footer-link'>
-                        <li><a className='underline-effect-footer' href="/privacy">Privacy</a></li>
-                        <li><a className='underline-effect-footer' href="/privacy/cookie">Cookie Privacy</a></li>
-                        <li><a className='underline-effect-footer' href="/terms">Termini & Condizioni</a></li>
-                    </ul>
                 </div>
             </div>
         </footer>

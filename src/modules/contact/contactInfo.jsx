@@ -8,12 +8,12 @@ import facebookIcon from '../../assets/FacebookIcon.png'
 export default function ContactInfo(){
     return (
         <div className='contact-info-container'>
-            <span className='contact-info-header'>Ecco alcuni nostri contattati</span>
+            <span className='contact-info-header'>Inviaci un messaggio qui.</span>
             <div className='info-socials-line'>
-                <InfoItem icon={phoneIcon} title={'Telefono'} info={'+1 605-475-6968'}/>
-                <InfoItem icon={emailIcon} title={'Email'} info={'not.a.rick.roll@gmail.com'}/>
-                <InfoItem icon={instaIcon} title={'Instagram'} info={'@Juicebar.Illegal'}/>
-                <InfoItem icon={facebookIcon} title={'Facebook'} info={'Juicebar_Ubriachi'}/>
+                <InfoItem icon={phoneIcon} title={'Telefono'} info={'+39 3515130308'}/>
+                <InfoItem icon={emailIcon} title={'Email'} info={'juice-bar@gmail.com'}/>
+                <InfoItem icon={instaIcon} title={'Instagram'} info={'@Juicebar_official'}/>
+                <InfoItem icon={facebookIcon} title={'Facebook'} info={'Juicebar_official'}/>
             </div>
         </div>
     )      

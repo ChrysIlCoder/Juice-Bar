@@ -5,11 +5,9 @@ export default function HomeSecret(){
         <div className='ingredients-home-container'>
             <span className='header'>Il Nostri Ingredienti</span>
             <p className='ingredient-exp-subtitle'>
-                I nostri ingredienti forniscono bevande molto gustose e fabulose che<br/>
-                utilizziano le vostre papille gustative come via per il gusto, qualcosa di mai visto prima.<br/>
-                Infatti tutti i nostri clienti dopo aver bevuto uno dei nostri drink riporta di non sentiere<br/>
-                più i gusti di altri cibi se non i nostri drink super mega buoni.<br/>
-                <small className='ingredients-responsabile'>Non siamo responsabili per eventuali perdite di gusto, tatto, udito, odore o/e vista</small>
+                Nel nostro juice bar, crediamo che la qualità degli ingredienti faccia la differenza. 
+                Utilizziamo solo i migliori frutti freschi e ingredienti naturali per creare le nostre deliziose bevande. 
+                Ogni sorso è una sinfonia di sapori freschi e genuini, che deliziano il palato e soddisfano i sensi.
             </p>
         </div>
     )

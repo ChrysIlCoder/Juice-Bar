@@ -12,7 +12,6 @@ export default function FinderSpiegazione(){
                     esperti ti accoglieranno con sorrisi calorosi, offrendo un'esperienza indimenticabile per le 
                     tue serate tra amici o momenti di tranquillo godimento personale.
                 </p>
-                <small style={{ opacity: '0.6'}}>Generated Copyright © ChatGPT, OpenAI Inc.</small>
             </div>
             <img src="https://shorturl.at/dnCNU" alt="Immagine Bicchere" className='spiegazione-image'/>
         </div>

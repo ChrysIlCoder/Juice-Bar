@@ -7,11 +7,8 @@ export default function ChiSiamoGrazie(){
             <div className='thanks-text'>
                 <span className='thanks-title'>Un grazie enorme.</span>
                 <p className='thanks-desc'>
-                    Una grazie enorme, per tutti gli anni che ci avete supportato, nonostante i vari
-                    "problemini" che si sono fromati nel tempo. Per ringraziarvi, abbiamo deciso di fare
-                    un video che racchiuda un po' questi 30 anni e passa di attività, di gioie, di obbiettivi.
-                    Ma non bisogna dimenticare anche gli avvenimenti brutti... Come la chiusura nel 2003... Ma
-                    noi non ci siamo fermati e ci siamo rialzati, grazie anche a voi. Buona degustazione a tutti voi negri!
+                    Un grazie enorme da parte di tutto il team Juice Bar, che nonostante gli anni, avete sempre supportato
+                    e adorato. Senza di voi non saremo qui ma bensì sul divano di casa a non fare un bel niente!.
                 </p>
             </div>
             <div className='thanks-gallery'>

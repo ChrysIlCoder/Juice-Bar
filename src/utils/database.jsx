@@ -52,7 +52,7 @@ export const Positions = {
         },
         Fotografo: {
             title: "Fotografo",
-            desc: "Scatta e modifica foto che siano all'altezza dell'altezza",
+            desc: "Scatta foto di qualità e di alto livello",
             hours: "Ingaggio",
             type: "I"
         },
@@ -64,7 +64,7 @@ export const Positions = {
         },
         AddettoAllePulizie: {
             title: "Addetto alla pulizia",
-            desc: "Pulisci la merda lasciata dai clienti molto ma molto garbati... E ovviamente anche da noi",
+            desc: "Rordina e pulisci",
             hours: "Mattina - Pomeriggio - Sera",
             type: "G"
         },
@@ -81,7 +81,7 @@ export const Drinks = {
     Mojrito: {
         drinkModel: "../../Mojrito.gltf",
         name: "Mojrito",
-        details: "Il Mojrito è un drink perfetto per tutte quelle persone a cui la vita fa veramente tanto schifo, come te <3.",
+        details: "Il Mojrito è la bevanda perfetta, per chi vuole, insomma hai capito...",
         price: "12,50€"
     },
     Limortacci: {

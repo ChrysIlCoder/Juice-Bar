@@ -8,9 +8,10 @@ export default function HomeObjective(){
             <span className='header objective-title'>L'Obiettivo di Juice</span>
             <hr className='objective-point-breaker'/>
             <p className='objective-exp-home-p'>
-                Il nostro obiettivo è quello di creare bevande stupefacenti. Il nostro<br/>
-                segreto rimane un segreto, ma sappiate solo che le nostre bevande sono le bevande<br/>
-                più bevande che abbiate mai bevuto, perché hanno un ingrediente segreto che rimane segreto.
+                Il nostro obbiettivo è quello di creare bevande che restino nella storia,
+                che restino nel cuore delle persone che un qualcosa di mai gustato prima.
+                Che i migliori cirtici dicano che i nostri drink sono i miglori di tutta la galassia.
+                Vuoi entrare a far parte di questa nuova era del gusto? Allora, vieni da noi.
             </p>
         </div>
     )
