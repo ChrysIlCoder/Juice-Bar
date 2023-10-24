@@ -112,6 +112,7 @@
     border-radius: 6px;
     border: solid 1px var(--contact-color);
     font-family: 'Poppins', sans-serif;
+    width: 480px;
 }
 
 .form-inputs input:focus, textarea:focus {
