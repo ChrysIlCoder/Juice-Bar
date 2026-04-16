@@ -1,5 +1,5 @@
 import './home.css'
-import '../../app.css'
+import '../../App.css'
 import { Drinks } from '../../utils/database'
 import { Suspense, useState } from 'react'
 import { Canvas } from '@react-three/fiber'
