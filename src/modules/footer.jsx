@@ -1,4 +1,4 @@
-import '../app.css'
+import '../App.css'
 import logo from '../assets/FootLogo.svg'
 import { useState } from 'react'
 
